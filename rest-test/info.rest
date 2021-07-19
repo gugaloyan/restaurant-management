@@ -1,0 +1,4 @@
+@localUrl = http://localhost:7654
+
+# @name getUsers
+get {{localUrl}}/info
