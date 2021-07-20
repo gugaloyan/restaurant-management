@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier 'src/**/*.ts'",
-    "lint-and-fix": "eslint . --ext .ts --fix",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint 'src/**/*.ts'",
     "eslint": "eslint 'src/**/*.ts'",
     "build": "tsc --build",
     "start": "ts-node-dev src/rest-api/app.ts",
