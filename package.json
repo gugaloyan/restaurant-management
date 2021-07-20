@@ -21,9 +21,9 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run prettier && npm run lint",
+      "pre-commit": "rm -rf  npm run lint",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": ""
+      "pre-push": "npm run lint"
     }
   },
   "dependencies": {
