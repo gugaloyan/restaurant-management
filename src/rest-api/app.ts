@@ -23,14 +23,14 @@ const errorHandler = async (ctx: Koa.Context, next: any) => {
 app.use(
   compose([
     cors({
-      origin: "*"
+      origin: "*",
     }),
     errorHandler,
     bodyParser(),
     logger(),
     helmet(),
-    infoRoute.routes()
-  ])
+    infoRoute.routes(),
+  ]),
 );
 
 const server = app

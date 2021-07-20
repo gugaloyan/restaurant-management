@@ -1,11 +1,11 @@
-import { Context } from 'koa';
+import { Context } from "koa";
 
-import Router from 'koa-router';
+import Router from "koa-router";
 const router = new Router();
 
 const getInfo = async (ctx: Context) => {
   ctx.body = {
-    data: 'okkk',
+    data: "okkk",
   };
 };
 
