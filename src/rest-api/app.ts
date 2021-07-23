@@ -38,6 +38,7 @@ const server = app
     console.log(`Server listening on port: ${config.serverPort}`);
   })
   .on("error", (err) => {
+    // eslint-disable-next-line no-console
     console.error(err);
   });
 

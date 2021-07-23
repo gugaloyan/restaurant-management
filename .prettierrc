@@ -1,6 +1,4 @@
 {
-  "semi": true,
   "arrowParens": "always",
-  "parser": "typescript",
   "trailingComma": "all"
 }

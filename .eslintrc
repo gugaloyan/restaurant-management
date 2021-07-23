@@ -25,6 +25,7 @@
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/array-type": "error",
     "no-console": "error",
+    "semi": "warn",
     "no-return-await": "error",
     "no-throw-literal": "error"
   }
